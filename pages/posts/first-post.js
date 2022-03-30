@@ -4,17 +4,14 @@ import Layout from '../../components/layout'
 
 
 export default function FirstPost() {
-  return (
-    <Layout>
-    <Head>
-        <title>First Post</title>
-    </Head>
-      <h1>First Post</h1>
-      <h2>
-        <Link href="/">
-          <a>Back to home</a>
-        </Link>
-      </h2>
-    </Layout>
-  )
+  return <> <p><img src="/images/kitchen.jpg" size="small" alt="Italian Trulli"></img></p>
+  
+  <h1>The Only Super Speedy Lightning Quick Lentil Soup Recipe You Need Right NOW! </h1><h2>How Did Humans Boil Water Before the Invention of Pots?</h2>
+  <p><img src="/images/chef.jpg" alt="Italian Trulli"></img></p>
+ 
+  <p>
+    It’s easy to imagine how prehistoric people could have roasted their food. It’s much harder to imagine how they could have boiled it without pottery. But that’s what Langley, who was helping lead a class of master’s students in archaeology, set out to attempt that October morning. Their boiling experiment was part of a course, and it took place at the York Experimental Archaeological Research Centre, a lakeside grove where researchers try to re-create the prehistoric by hafting arrowheads and weaving baskets out of reeds—and, in this case, boiling water. The students divided into groups of two or three, and they set out on this extremely simple yet daunting task.A couple of groups dug pits, filling them with coals and then lining them with either wet clay or a deer hide. Others poured water into birch bark or pig stomachs (procured from a Chinese supermarket). One group hung a deer hide from a tree and started heating small rocks in a fire—a technique inspired by the discovery of fire-cracked rocks in Paleolithic sites. These rocks had split and changed in distinct ways that suggested repeated heating and cooling. Archaeologists think that these stones were heated in fires and then dropped into water for cooking.
+
+But you can’t use just any old rocks for boiling. “The stones are the most tricky part,” Langley says. Wet stones, such as those that have been sitting in a river bed, will explode when the water inside turns into steam. So will stones with air trapped inside them. “Things like granite and basalt are very good,” he says. For safety reasons, Langley provided the students with massage stones that he knew would not explode. Still, the students had to heat the stones gradually to make sure that they did not crack at all. They ended up slowly nudging the stones into the fire over the course of 10 to 15 minutes. Using multiple stones, they were able to get the water inside the deer hide to boil.Another group was also attempting to boil water inside a deer hide hung directly over a fire—a technique admittedly less grounded in physical evidence from archaeological sites. In 2015, John Speth, a retired anthropologist at the University of Michigan, wrote a paper pointing out that you can actually boil water in a plastic water bottle. The paper, he was happy to explain to me, was inspired by watching the reality show Survivorman, in which the outdoor expert Les Stroud boils water in a plastic bottle, with his son. Speth quickly found YouTube videos and other evidence of people heating water in paper cups, coconut shells, bamboo tubes, wooden bowls, and even leaves. It turns out that as long as the cooking container is filled with water, it does not get hot enough to ignite.One group of students decided to put this method to the test. They hoisted their water-filled deer hide directly over a fire, and they planned to let it go as long as the hide stayed intact. The hair on the outside singed, but the skin itself held up just fine. So the students waited and waited and waited. Four hours later, the hide was still intact. It did get very hard, but neither sprung a leak nor burned.The students are now writing up the results of their different pot-less boiling techniques. And Speth was incredibly pleased to hear that a group of students decided to put his idea of wet cooking without hot stones to the test. It’s extremely speculative, he admitted. But archaeology always has to deal with the problem of an incomplete record, and certain types of evidence (i.e., anything that will rot) are always going to be more incomplete than others. It’s about considering the things we see and also the things we don’t see. “If nobody asked the question,” Speth said, “nobody would even think it’s worth thinking about.”
+  </p></>
 }

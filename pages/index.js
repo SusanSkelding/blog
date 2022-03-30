@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
@@ -9,13 +10,13 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Lentil Soup</p>
+        <p><img src="/images/kitchen.jpg" alt="Italian Trulli"></img></p>
         <p>
           <h1>What is Soup?</h1>
 
-          Soup is a primarily liquid food, generally served warm or hot (but may be cool or cold), that is made by combining ingredients of meat or vegetables with stock, milk, or water. Hot soups are additionally characterized by boiling solid ingredients in liquids in a pot until the flavors are extracted, forming a broth. Soups are similar to stews, and in some cases there may not be a clear distinction between the two; however, soups generally have more liquid (broth) than stews.[1]
+          Soup is a primarily liquid food, generally served warm or hot (but may be cool or cold), that is made by combining ingredients of meat or vegetables with stock, milk, or water. Hot soups are additionally characterized by boiling solid ingredients in liquids in a pot until the flavors are extracted, forming a broth. Soups are similar to stews, and in some cases there may not be a clear distinction between the two; however, soups generally have more liquid (broth) than stews.
 
-In traditional French cuisine, soups are classified into two main groups: clear soups and thick soups. The established French classifications of clear soups are bouillon and consommé. Thick soups are classified depending upon the type of thickening agent used: purées are vegetable soups thickened with starch; bisques are made from puréed shellfish or vegetables thickened with cream; cream soups may be thickened with béchamel sauce; and veloutés are thickened with eggs, butter, and cream. Other ingredients commonly used to thicken soups and broths include [2] rice, lentils, flour, and grains; many popular soups also include pumpkin, carrots, potatoes, pig's trotters and bird's nests.
+In traditional French cuisine, soups are classified into two main groups: clear soups and thick soups. The established French classifications of clear soups are bouillon and consommé. Thick soups are classified depending upon the type of thickening agent used: purées are vegetable soups thickened with starch; bisques are made from puréed shellfish or vegetables thickened with cream; cream soups may be thickened with béchamel sauce; and veloutés are thickened with eggs, butter, and cream. Other ingredients commonly used to thicken soups and broths include rice, lentils, flour, and grains; many popular soups also include pumpkin, carrots, potatoes, pig's trotters and bird's nests.
 
 Other types of soup include fruit soups, dessert soups, pulse soups like split pea, cold soups and other styles.
         </p>
@@ -123,6 +124,9 @@ In French cuisine, soup is often served before other dishes in a meal. In 1970, 
 Lentil Soup Recipe
 </h5>
 <img src="/images/recipe.jpg" alt="Italian Trulli"></img>
+<Link href="/posts/first-post">
+    <a>Get This Recipe!</a>
+  </Link>
 
 
       </section>
